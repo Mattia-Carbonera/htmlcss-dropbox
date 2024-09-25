@@ -19,6 +19,66 @@
   font-family: sans-serif;
 }
 
+hr {
+  color: gray;
+}
+
+/* # container main */
+
+.container-main {
+  /* debug */
+  background-color: lightgray;
+}
+
+.detalist-plan {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.column {
+  width: 30%;
+  gap: 10em;
+  /* debug */
+  background-color: lightblue;
+  min-height: 100px;
+  border: 2px solid black;
+}
+
+.header-column {
+  text-align: center;
+  padding: 10px 0;
+
+  border-bottom: 2px solid gray;
+}
+
+.detalist-plan {
+  padding: 25px;
+}
+
+.main-column > h3 {
+  padding-bottom: 8px;
+}
+
+.button-col {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.price,
+.advantages,
+.recap {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.price > *,
+.advantages > *,
+.recap > * {
+  padding: 5px 0;
+}
+
 /* ________ HEADER ________ */
 
 .header {
@@ -48,6 +108,8 @@
 }
 
 /* ________ MAIN ________ */
+
+/* hero section */
 
 .hero {
   /* debug */
@@ -82,4 +144,213 @@
   max-width: 100%;
 }
 
+/* _________ MAIN CONTENT___________ */
+
+.container-main {
+  padding-top: 150px;
+}
+
+.info-box {
+  margin-top: 35px;
+  /* debug */
+  background-color: bisque;
+  height: 200px;
+  border: 2px solid black;
+}
+
+/* partner */
+
+.partner {
+  display: flex;
+  margin-top: 150px;
+}
+
+.partner-image {
+  width: 60%;
+  /* debug */
+  background-color: aqua;
+  border: 2px solid black;
+  height: 500px;
+}
+
+.partner-description {
+  width: 40%;
+  /* debug */
+  background-color: aqua;
+  border: 2px solid black;
+  height: 500px;
+}
+
+/* info business */
+
+.info-business {
+  margin: 160px 0;
+}
+
+.business-card {
+  gap: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+/* company */
+
+.company {
+  display: flex;
+  /* debug */
+  height: 500px;
+}
+
+/* -- */
+
+.company-left {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: calc(100% / 3);
+  height: 100%;
+  /* debug */
+  background-color: aqua;
+}
+
+.company-center {
+  height: 100%;
+  width: calc(100% / 3);
+
+  /* debug */
+  background-color: bisque;
+  border: 2px solid black;
+}
+
+.company-right {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: calc(100% / 3);
+  height: 100%;
+
+  /* debug */
+  background-color: blueviolet;
+}
+
+/* -- */
+
+.company-img-uno {
+  height: 50%;
+  width: 50%;
+
+  /* debug */
+  background-color: antiquewhite;
+  border: 2px solid black;
+}
+
+.company-img-due {
+  height: 50%;
+  width: 50%;
+
+  /* debug */
+  background-color: rgb(168, 118, 54);
+  border: 2px solid black;
+}
+
+.company-img-tre {
+  height: 50%;
+  width: 50%;
+
+  /* debug */
+  background-color: lightcoral;
+  border: 2px solid black;
+}
+
+.company-img-quattro {
+  height: 50%;
+  width: 50%;
+
+  /* debug */
+  background-color: rgb(51, 77, 147);
+  border: 2px solid black;
+}
+
+/* trial */
+
+.free-trial {
+  height: 300px;
+  margin-bottom: 90px;
+
+  /* debug */
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+
 /* ________ FOOTER ________ */
+
+/* FAQ */
+
+#footer > h2 {
+  padding: 50px 0;
+  border-bottom: 1px solid gray;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq {
+  padding: 40px 0;
+  border-bottom: 1px solid gray;
+}
+
+/* end footer */
+
+.end-footer {
+  background-color: black;
+  color: white;
+
+  margin-top: 120px;
+
+  /* debug */
+  height: 600px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.dropbox {
+  /* debug */
+  height: 300px;
+  width: calc(100% / 5);
+  background-color: aqua;
+}
+.prodotti {
+  /* debug */
+  height: 300px;
+  width: calc(100% / 5);
+  background-color: bisque;
+}
+.azienda {
+  /* debug */
+  height: 300px;
+  width: calc(100% / 5);
+  background-color: blue;
+}
+.supporto {
+  /* debug */
+  height: 300px;
+  width: calc(100% / 5);
+  background-color: blueviolet;
+}
+.community {
+  /* debug */
+  height: 300px;
+  width: calc(100% / 5);
+  background-color: brown;
+}
+
+.lenguage {
+  margin-top: 200px;
+}
