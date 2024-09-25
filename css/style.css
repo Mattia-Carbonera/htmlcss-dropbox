@@ -38,12 +38,7 @@ hr {
   text-decoration: none;
 }
 
-/* # container main */
-
-.container-main {
-  /* debug */
-  background-color: lightgray;
-}
+/* # UTILS container main */
 
 .detalist-plan {
   display: flex;
@@ -55,16 +50,15 @@ hr {
   width: 30%;
   gap: 10em;
   /* debug */
-  background-color: lightblue;
   min-height: 100px;
-  border: 2px solid black;
+  border: 1px solid gray;
 }
 
 .header-column {
   text-align: center;
   padding: 10px 0;
 
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 .detalist-plan {
@@ -73,11 +67,27 @@ hr {
 
 .main-column > h3 {
   padding-bottom: 8px;
+  padding-top: 40px;
+}
+
+.main-column {
+  font-size: 0.8rem;
+}
+
+.main-column > * {
+  padding: 0 30px;
 }
 
 .button-col {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin: 0 40px;
+  margin-bottom: 30px;
+  padding: 9px 0;
+
+  text-align: center;
+}
+
+.advantages > span {
+  padding: 10px 0;
 }
 
 .price,
@@ -107,8 +117,6 @@ header {
   align-items: center;
 
   padding: 22px 20px;
-
-  /* debug */
   background-color: white;
 }
 
@@ -186,10 +194,17 @@ header {
   max-width: 100%;
 }
 
-/* _________ MAIN CONTENT___________ */
+/*  MAIN CONTENT */
 
 .container-main {
   padding-top: 150px;
+
+  background-color: white;
+}
+
+.container-main > h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
 }
 
 .info-box {
