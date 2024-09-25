@@ -1,16 +1,48 @@
 /* # RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* # UTILS */
-  
-  .container {
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
-    max-width: 100%;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+/* ________ HEADER ________ */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+
+  /* debug */
+  background-color: lightgray;
+}
+
+.header-sx {
+  display: flex;
+  align-items: center;
+}
+
+.header-sx > img {
+  padding-right: 30px;
+}
+
+.info-sx > span,
+.header-dx span,
+.header-dx button {
+  padding: 0 20px;
+}
+
+/* ________ MAIN ________ */
+
+/* ________ FOOTER ________ */
