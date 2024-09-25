@@ -15,6 +15,10 @@
   max-width: 100%;
 }
 
+.div-body {
+  font-family: sans-serif;
+}
+
 /* ________ HEADER ________ */
 
 .header {
@@ -22,7 +26,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 20px;
+  padding: 22px 20px;
 
   /* debug */
   background-color: lightgray;
@@ -44,5 +48,38 @@
 }
 
 /* ________ MAIN ________ */
+
+.hero {
+  /* debug */
+  background-color: aqua;
+}
+
+.hero > .container {
+  padding: 40px 0;
+}
+
+.hero > .container > h1 {
+  font-size: 4rem;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 30%;
+}
+
+.hero-description > p,
+.hero-description > span {
+  padding: 30px 0;
+}
+
+.hero-image > img {
+  max-width: 100%;
+}
 
 /* ________ FOOTER ________ */
