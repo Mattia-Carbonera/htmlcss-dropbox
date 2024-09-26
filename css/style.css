@@ -327,6 +327,14 @@ header {
   border: 1px solid black;
 }
 
+.link-client {
+  margin-bottom: 160px;
+}
+
+.link-client > h2 {
+  margin-bottom: 60px;
+}
+
 /* info business */
 
 .info-business {
@@ -371,6 +379,65 @@ header {
   height: calc(100vw / 3);
 }
 
+.company-center {
+  padding: 40px;
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.company-center img {
+  max-width: 50%;
+}
+
+.company img {
+  width: 100%;
+}
+
+.company-center > .short-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 10px;
+  width: 100px;
+}
+
+.client-logo-footer {
+  display: flex;
+  align-items: center;
+
+  height: 50%;
+  width: 50%;
+  padding: 70px;
+}
+
+/* company image background color */
+
+.company-img-uno {
+  background-color: #a2d39b;
+}
+.company-img-due {
+  background-color: #61082b;
+}
+.company-img-tre {
+  background-color: #0093ce;
+}
+.company-img-quattro {
+  background-color: #ff1c1c;
+}
+.company-img-cinque {
+  background-color: #d5001f;
+}
+.company-img-sei {
+  background-color: #b4d0e7;
+}
+.company-img-sette {
+  background-color: #0d2481;
+}
+.company-img-otto {
+  background-color: #ffd830;
+}
+
 /* -- */
 
 .company-left {
@@ -380,16 +447,13 @@ header {
   width: calc(100vw / 3);
   height: 100%;
   /* debug */
-  background-color: aqua;
 }
 
 .company-center {
   height: 100%;
   width: calc(100vw / 3);
 
-  /* debug */
-  background-color: bisque;
-  border: 2px solid black;
+  background-color: #f5f5f5;
 }
 
 .company-right {
@@ -400,46 +464,9 @@ header {
   height: 100%;
 
   /* debug */
-  background-color: blueviolet;
 }
 
 /* -- */
-
-.company-img-uno {
-  height: 50%;
-  width: 50%;
-
-  /* debug */
-  background-color: antiquewhite;
-  border: 2px solid black;
-}
-
-.company-img-due {
-  height: 50%;
-  width: 50%;
-
-  /* debug */
-  background-color: rgb(168, 118, 54);
-  border: 2px solid black;
-}
-
-.company-img-tre {
-  height: 50%;
-  width: 50%;
-
-  /* debug */
-  background-color: lightcoral;
-  border: 2px solid black;
-}
-
-.company-img-quattro {
-  height: 50%;
-  width: 50%;
-
-  /* debug */
-  background-color: rgb(51, 77, 147);
-  border: 2px solid black;
-}
 
 /* trial */
 
