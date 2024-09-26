@@ -301,18 +301,30 @@ header {
 
 .partner-image {
   width: 60%;
-  /* debug */
-  background-color: aqua;
-  border: 2px solid black;
-  height: 500px;
+}
+
+.partner-image > img {
+  max-width: 100%;
+  display: block;
 }
 
 .partner-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
   width: 40%;
-  /* debug */
-  background-color: aqua;
-  border: 2px solid black;
-  height: 500px;
+  padding: 45px;
+}
+
+.partner-description span:nth-child(2) {
+  padding: 30px 0;
+}
+
+.partner-description > .button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 /* info business */
