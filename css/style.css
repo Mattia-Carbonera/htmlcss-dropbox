@@ -52,7 +52,7 @@ hr {
   width: 100%;
 }
 .column {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
 
   width: 30%;
 }
@@ -61,7 +61,7 @@ hr {
   text-align: center;
   padding: 10px 0;
 
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
 }
 
 input[type="radio"] {
@@ -119,6 +119,10 @@ input[type="radio"] {
   margin-top: 40px;
 
   border-top: 1px solid gray;
+}
+
+.advantages span {
+  /* margin-bottom: 30px; */
 }
 
 .advantages > span {
@@ -254,13 +258,13 @@ header {
   margin-top: 35px;
   font-size: 0.8rem;
 
-  border: 1px solid gray;
+  border: 1px solid lightgray;
 }
 
 .info-icon {
   text-align: center;
   padding: 10px 0;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
 }
 
 .team-description {
@@ -413,6 +417,15 @@ header {
 }
 
 /* company image background color */
+
+svg {
+  fill-rule: nonzero;
+  fill: currentColor;
+}
+
+path {
+  fill: white;
+}
 
 .company-img-uno {
   background-color: #a2d39b;
