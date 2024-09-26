@@ -64,20 +64,6 @@ hr {
   border-bottom: 1px solid lightgray;
 }
 
-input[type="radio"] {
-  margin-right: 3px;
-  margin-bottom: 30px;
-}
-
-.radio-uno,
-.radio-due {
-  font-size: 0.8rem;
-}
-
-.radio-uno {
-  margin-right: 60px;
-}
-
 .main-column > h3 {
   padding-bottom: 8px;
   padding-top: 40px;
@@ -121,10 +107,6 @@ input[type="radio"] {
   border-top: 1px solid gray;
 }
 
-.advantages span {
-  /* margin-bottom: 30px; */
-}
-
 .advantages > span {
   padding: 10px 0;
 }
@@ -145,6 +127,10 @@ input[type="radio"] {
 .advantages > *,
 .recap > * {
   padding: 5px 0;
+}
+
+.price > span:first-child {
+  font-weight: bold;
 }
 
 /* ________ HEADER ________ */
@@ -178,13 +164,6 @@ header {
 .header-dx button {
   padding: 0 20px;
 }
-
-/* .header-dx > span > a {
-  padding: 5px 15px;
-  color: white;
-  background-color: blue;
-  text-decoration: none;
-} */
 
 /* ________ MAIN ________ */
 
@@ -248,6 +227,20 @@ header {
 
 .radio {
   display: flex;
+}
+
+input[type="radio"] {
+  margin-right: 3px;
+  margin-bottom: 30px;
+}
+
+.radio-uno,
+.radio-due {
+  font-size: 0.8rem;
+}
+
+.radio-uno {
+  margin-right: 60px;
 }
 
 .container-main > h2 {
