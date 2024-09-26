@@ -53,9 +53,8 @@ hr {
 }
 .column {
   border: 1px solid gray;
-  /* debug */
+
   width: 30%;
-  min-height: 100px;
 }
 
 .header-column {
@@ -563,41 +562,73 @@ header {
   height: 600px;
 }
 
+.end-footer ul {
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+.end-footer ul li {
+  padding: 7px 0;
+}
+
 .footer-container {
   display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding-top: 100px;
 }
+
+.down-footer-titol {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* end footer section */
 
 .dropbox {
   /* debug */
   height: 300px;
   width: calc(100% / 5);
-  background-color: aqua;
 }
 .prodotti {
   /* debug */
   height: 300px;
   width: calc(100% / 5);
-  background-color: bisque;
 }
 .azienda {
   /* debug */
   height: 300px;
   width: calc(100% / 5);
-  background-color: blue;
 }
 .supporto {
   /* debug */
   height: 300px;
   width: calc(100% / 5);
-  background-color: blueviolet;
 }
 .community {
   /* debug */
   height: 300px;
   width: calc(100% / 5);
-  background-color: brown;
+}
+
+/* ---- */
+
+.lenguage > .container > .short-line {
+  width: 120px;
+  border-top: 2px solid gray;
 }
 
 .lenguage {
   margin-top: 200px;
+  background-color: black;
+  font-size: 0.8rem;
+}
+
+.lenguage > .container {
+  width: 1200px;
+  padding-bottom: 60px;
+}
+.italian > span {
+  margin: 0 5px;
 }
