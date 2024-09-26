@@ -96,6 +96,20 @@ input[type="radio"] {
   text-align: center;
 }
 
+.recap span {
+  padding: 10px 0;
+}
+
+.recap > span:nth-child(2) {
+  font-weight: bold;
+}
+
+.recap > span > i {
+  color: #0160ff;
+
+  padding-right: 5px;
+}
+
 .short-line {
   height: 40px;
   width: 50px;
@@ -106,6 +120,10 @@ input[type="radio"] {
 
 .advantages > span {
   padding: 10px 0;
+}
+
+.advantages > span > i {
+  padding-right: 5px;
 }
 
 .price,
@@ -232,10 +250,46 @@ header {
 
 .info-box {
   margin-top: 35px;
-  /* debug */
-  background-color: bisque;
-  height: 200px;
-  border: 2px solid black;
+  font-size: 0.8rem;
+
+  border: 1px solid gray;
+}
+
+.info-icon {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+
+.team-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding: 30px 20px 30px 20px;
+}
+
+.enterprise {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+}
+.enterprise > h3 {
+  padding-bottom: 15px;
+}
+
+.enterprise > span:nth-child(2) {
+  padding-bottom: 35px;
+  font-weight: bold;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 30%;
 }
 
 /* partner */
