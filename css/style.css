@@ -526,7 +526,7 @@ header {
 /* FAQ */
 
 #footer > h2 {
-  padding: 30px 0;
+  padding: 40px 0;
   border-bottom: 1px solid gray;
 }
 
@@ -536,11 +536,19 @@ header {
 }
 
 .faq {
-  padding: 30px 0;
-  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  padding: 40px 0;
   font-size: 0.8rem;
   font-weight: bold;
+
+  border-bottom: 1px solid gray;
+}
+
+.faq > i {
+  padding-right: 40px;
 }
 
 /* end footer */
